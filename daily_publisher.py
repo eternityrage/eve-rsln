@@ -1,4 +1,4 @@
-import os
+﻿import os
 import json
 import glob
 import random
@@ -130,21 +130,21 @@ def generate_caption():
     ]
 
     fallback_descriptions = [
-        "Fashion is a quiet kind of self-expression. These floral-inspired looks are soft, elegant, and easy to wear every day. Save this for your next outfit plan! 🌷 #fashion #style #floral #outfitinspo #evelinaroselle",
-        "Beauty starts with how you treat yourself. A gentle routine, a little light, and you glow from within. Like if you love a natural look! 💄 #beauty #skincare #glow #selfcare #evelinaroselle",
-        "The little things are where beauty lives — morning light, fresh flowers, a slow cup of tea. Notice them today. Double tap if you agree! 🌸 #lifestyle #slowliving #everydaybeauty #mindful #evelinaroselle",
-        "Travel feeds the soul. A new city, pretty streets, and outfits that match the mood — this escape was pure magic. Comment your dream destination! ✈️ #travel #traveldiary #adventure #style #evelinaroselle",
-        "A timeless wardrobe makes getting dressed joyful. A few quality pieces, mixed with love, go everywhere. Share this with a style friend! 🤍 #fashion #capsulewardrobe #timeless #elegance #evelinaroselle",
-        "Soft glam is my favorite kind of evening look — glowing skin, a pretty lip, and quiet confidence. Save this for date night! 🌙 #beauty #makeup #glam #eveninglook #evelinaroselle",
-        "You don't need a fancy camera to capture beautiful moments — just light and attention. Try these simple tips today. Like if you love photography! 📸 #photography #everydaymoments #inspiration #evelinaroselle",
-        "Wellness is beauty from the inside out. A walk, water, rest, and kind thoughts make all the difference. Drop a 🌿 if you're prioritizing you! #wellness #selfcare #lifestyle #beauty #evelinaroselle",
-        "Travel in style starts at the airport. Comfy yet chic pieces keep you polished from takeoff to arrival. Save this travel look! ✈️ #travelstyle #airportlook #ootd #fashion #evelinaroselle",
-        "Dress for joy, not just occasions. When your outfit makes you smile, the whole day feels lighter. Comment your favorite piece! 👗 #personalstyle #fashion #styleinspo #evelinaroselle",
-        "Cozy knitwear is a love language. Soft textures, warm tones, gentle days — my kind of comfort. Double tap if you love knits! 🧶 #knitwear #cozy #fashion #autumn #evelinaroselle",
-        "Beauty in bloom: florals are forever in my wardrobe. They're romantic, fresh, and effortlessly feminine. Like if you're a floral girl! 🌷 #floral #fashion #style #beauty #evelinaroselle",
-        "A peaceful morning sets the tone for a beautiful day. Light, stretch, a little skincare, and intention. Follow Evelina Roselle for daily fashion, beauty, and lifestyle inspiration! ☀️ #morningroutine #lifestyle #wellness #evelinaroselle",
-        "New city, new stories. I love exploring in style — pretty cafés, hidden corners, and outfits made for wandering. Share this with a travel buddy! 🗺️ #travel #explore #citybreak #style #evelinaroselle",
-        "Live beautifully — not perfectly. Small, lovely habits turn ordinary days into something special. Be beautifully you. 🤍 #lifestyle #livebeautifully #selflove #inspiration #evelinaroselle",
+        "Fashion is a quiet kind of self-expression. These floral-inspired looks are soft, elegant, and easy to wear every day. Save this for your next outfit plan! 🌷 #fashion #style #floral #outfitinspo #evelinarosellesa",
+        "Beauty starts with how you treat yourself. A gentle routine, a little light, and you glow from within. Like if you love a natural look! 💄 #beauty #skincare #glow #selfcare #evelinarosellesa",
+        "The little things are where beauty lives — morning light, fresh flowers, a slow cup of tea. Notice them today. Double tap if you agree! 🌸 #lifestyle #slowliving #everydaybeauty #mindful #evelinarosellesa",
+        "Travel feeds the soul. A new city, pretty streets, and outfits that match the mood — this escape was pure magic. Comment your dream destination! ✈️ #travel #traveldiary #adventure #style #evelinarosellesa",
+        "A timeless wardrobe makes getting dressed joyful. A few quality pieces, mixed with love, go everywhere. Share this with a style friend! 🤍 #fashion #capsulewardrobe #timeless #elegance #evelinarosellesa",
+        "Soft glam is my favorite kind of evening look — glowing skin, a pretty lip, and quiet confidence. Save this for date night! 🌙 #beauty #makeup #glam #eveninglook #evelinarosellesa",
+        "You don't need a fancy camera to capture beautiful moments — just light and attention. Try these simple tips today. Like if you love photography! 📸 #photography #everydaymoments #inspiration #evelinarosellesa",
+        "Wellness is beauty from the inside out. A walk, water, rest, and kind thoughts make all the difference. Drop a 🌿 if you're prioritizing you! #wellness #selfcare #lifestyle #beauty #evelinarosellesa",
+        "Travel in style starts at the airport. Comfy yet chic pieces keep you polished from takeoff to arrival. Save this travel look! ✈️ #travelstyle #airportlook #ootd #fashion #evelinarosellesa",
+        "Dress for joy, not just occasions. When your outfit makes you smile, the whole day feels lighter. Comment your favorite piece! 👗 #personalstyle #fashion #styleinspo #evelinarosellesa",
+        "Cozy knitwear is a love language. Soft textures, warm tones, gentle days — my kind of comfort. Double tap if you love knits! 🧶 #knitwear #cozy #fashion #autumn #evelinarosellesa",
+        "Beauty in bloom: florals are forever in my wardrobe. They're romantic, fresh, and effortlessly feminine. Like if you're a floral girl! 🌷 #floral #fashion #style #beauty #evelinarosellesa",
+        "A peaceful morning sets the tone for a beautiful day. Light, stretch, a little skincare, and intention. Follow Evelina Rosellesa for daily fashion, beauty, and lifestyle inspiration! ☀️ #morningroutine #lifestyle #wellness #evelinarosellesa",
+        "New city, new stories. I love exploring in style — pretty cafés, hidden corners, and outfits made for wandering. Share this with a travel buddy! 🗺️ #travel #explore #citybreak #style #evelinarosellesa",
+        "Live beautifully — not perfectly. Small, lovely habits turn ordinary days into something special. Be beautifully you. 🤍 #lifestyle #livebeautifully #selflove #inspiration #evelinarosellesa",
     ]
 
     if not api_key:
@@ -166,13 +166,13 @@ def generate_caption():
 
     prompt = (
         f"Write a completely unique, long, and captivating title and description for a short video "
-        f"for the social media page 'Evelina Roselle'. "
-        f"A space dedicated to fashion, beauty, lifestyle, travel, and beautiful everyday moments. Evelina shares elegant looks, floral-inspired fashion, travel adventures, wellness, photography, and personal-style inspiration — live beautifully, be beautifully you. "
+        f"for the social media page 'Evelina Rosellesa'. "
+        f"A space dedicated to fashion, beauty, lifestyle, travel, and beautiful everyday moments. Evelina Rosellesa shares elegant looks, floral-inspired fashion, travel adventures, wellness, photography, and personal-style inspiration — live beautifully, be beautifully you. "
         f"Make the vibe {chosen_vibe}. "
         f"The description should be LONG (4-6 sentences minimum), deeply engaging, and personal. "
         f"Include engagement calls-to-action such as: "
-        f"Like if this inspired your style! Comment your favorite look below! Share this with a friend who loves fashion! Follow Evelina Roselle for daily fashion, beauty, and lifestyle inspiration!"
-        f"Include relevant hashtags in ALL LOWERCASE such as #fashion #beauty #lifestyle #travel #style #floral #photography #wellness #evelinaroselle. "
+        f"Like if this inspired your style! Comment your favorite look below! Share this with a friend who loves fashion! Follow Evelina Rosellesa for daily fashion, beauty, and lifestyle inspiration!"
+        f"Include relevant hashtags in ALL LOWERCASE such as #fashion #beauty #lifestyle #travel #style #floral #photography #wellness #evelinarosellesa. "
         f"Return ONLY a valid JSON object in this format: {{\"title\": \"<title>\", \"description\": \"<description>\"}} "
         f"Do not include any other text or markdown block backticks."
     )

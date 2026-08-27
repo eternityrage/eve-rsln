@@ -1,4 +1,4 @@
-"""
+﻿"""
 Upload videos to VK (VKontakte) using vk_api library
 This method is MUCH easier and handles OAuth automatically!
 """
@@ -60,7 +60,7 @@ def upload_to_vk(video_path, description="", title=""):
         upload = vk_api.VkUpload(vk_session)
         
         # Prepare message
-        message = description if description else "💬 Evelina Roselle Daily!\n\n#fashion #beauty #lifestyle #travel #evelinaroselle"
+        message = description if description else "💬 Evelina Rosellesa Daily!\n\n#fashion #beauty #lifestyle #travel #evelinarosellesa"
         
         # Ensure message is not empty (VK requirement)
         if not message.strip():
@@ -73,7 +73,7 @@ def upload_to_vk(video_path, description="", title=""):
         # vk_api handles everything: getting upload URL, uploading file, and saving
         video = upload.video(
             video_file=str(video_path),
-            name=title or 'Evelina Roselle Video',
+            name=title or 'Evelina Rosellesa Video',
             description=description[:220] if description else '',  # VK 220 char limit
             group_id=group_id_int,
             wallpost=0  # Don't auto-post, we'll do it manually
@@ -145,7 +145,7 @@ def main():
     
     video_path = sys.argv[1]
     description = sys.argv[2] if len(sys.argv) > 2 else "Daily Psychology Lesson! 🧠"
-    title = sys.argv[3] if len(sys.argv) > 3 else "Evelina Roselle"
+    title = sys.argv[3] if len(sys.argv) > 3 else "Evelina Rosellesa"
     
     try:
         result = upload_to_vk(video_path, description, title)
