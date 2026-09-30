@@ -1630,5 +1630,21 @@
             },
             "recycled": true
         }
+    },
+    {
+        "video_name": "grok-video-fef0ad14-f424-4a87-b513-f71d9ed52316.mp4",
+        "metadata": {
+            "title": "A Photography-Inspired Day in Florals & Glow \u2728 Capture Everyday Beauty with Evelina Rosellesa",
+            "description": "Today I\u2019m taking you along for a quiet, luminous moment where fashion meets photography\u2014floral-inspired details, soft styling, and that \u201cjust stepped out into beauty\u201d feeling. Think of this as a love letter to the everyday: the way golden light lands on a sleeve, how a color palette can shift your mood, and how small wellness rituals can make you feel effortlessly radiant. I wanted to create a look that feels wearable, elegant, and true to you\u2014something you could style for a morning coffee, an afternoon stroll, or a spontaneous adventure with your camera roll ready. Like if this inspired your style! Comment your favorite look below! Share this with a friend who loves fashion! Follow Evelina Rosellesa for daily fashion, beauty, and lifestyle inspiration! #fashion #beauty #lifestyle #travel #style #floral #photography #wellness #evelinarosellesa",
+            "success_flags": {
+                "instagram_reel": true,
+                "instagram_story": true,
+                "facebook_reel": true,
+                "facebook_story": false,
+                "threads": false,
+                "youtube": false
+            },
+            "recycled": true
+        }
     }
 ]
