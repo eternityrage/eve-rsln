@@ -2990,5 +2990,21 @@
             },
             "recycled": true
         }
+    },
+    {
+        "video_name": "grok-video-fef0ad14-f424-4a87-b513-f71d9ed52316 (3).mp4",
+        "metadata": {
+            "title": "Everyday Beauty Routine for a Natural Glow",
+            "description": "The little things are where beauty lives \u2014 morning light, fresh flowers, a slow cup of tea. Notice them today. Double tap if you agree! \ud83c\udf38 #lifestyle #slowliving #everydaybeauty #mindful #evelinarosellesa",
+            "success_flags": {
+                "instagram_reel": true,
+                "instagram_story": true,
+                "facebook_reel": true,
+                "facebook_story": true,
+                "threads": false,
+                "youtube": false
+            },
+            "recycled": true
+        }
     }
 ]
